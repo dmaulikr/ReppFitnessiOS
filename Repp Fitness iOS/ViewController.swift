@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var url = NSURL(string:"http://www.facebook.com") // make a URL
+        var url = NSURL(string:"localhost:8080") // make a URL
         var req = NSURLRequest(URL:url!) // make a request w/ that URL
         self.webView = WKWebView() // instantiate WKWebView
         self.webView!.loadRequest(req) // unwrap the webView and load the request.
