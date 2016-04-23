@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813170C11CCBE1830078C901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813170C01CCBE1830078C901 /* AppDelegate.swift */; };
+		813170C31CCBE1830078C901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813170C21CCBE1830078C901 /* ViewController.swift */; };
+		813170C61CCBE1830078C901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813170C41CCBE1830078C901 /* Main.storyboard */; };
+		813170C81CCBE1830078C901 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813170C71CCBE1830078C901 /* Images.xcassets */; };
+		813170CB1CCBE1830078C901 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813170C91CCBE1830078C901 /* LaunchScreen.xib */; };
+		813170D71CCBE1830078C901 /* Repp_Fitness_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813170D61CCBE1830078C901 /* Repp_Fitness_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813170D11CCBE1830078C901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813170B31CCBE1830078C901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813170BA1CCBE1830078C901;
+			remoteInfo = "Repp Fitness iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813170BB1CCBE1830078C901 /* Repp Fitness iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repp Fitness iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813170BF1CCBE1830078C901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813170C01CCBE1830078C901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		813170C21CCBE1830078C901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		813170C51CCBE1830078C901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		813170C71CCBE1830078C901 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		813170CA1CCBE1830078C901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		813170D01CCBE1830078C901 /* Repp Fitness iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Repp Fitness iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813170D51CCBE1830078C901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813170D61CCBE1830078C901 /* Repp_Fitness_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repp_Fitness_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		813170B81CCBE1830078C901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813170CD1CCBE1830078C901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813170B21CCBE1830078C901 = {
+			isa = PBXGroup;
+			children = (
+				813170BD1CCBE1830078C901 /* Repp Fitness iOS */,
+				813170D31CCBE1830078C901 /* Repp Fitness iOSTests */,
+				813170BC1CCBE1830078C901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		813170BC1CCBE1830078C901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				813170BB1CCBE1830078C901 /* Repp Fitness iOS.app */,
+				813170D01CCBE1830078C901 /* Repp Fitness iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813170BD1CCBE1830078C901 /* Repp Fitness iOS */ = {
+			isa = PBXGroup;
+			children = (
+				813170C01CCBE1830078C901 /* AppDelegate.swift */,
+				813170C21CCBE1830078C901 /* ViewController.swift */,
+				813170C41CCBE1830078C901 /* Main.storyboard */,
+				813170C71CCBE1830078C901 /* Images.xcassets */,
+				813170C91CCBE1830078C901 /* LaunchScreen.xib */,
+				813170BE1CCBE1830078C901 /* Supporting Files */,
+			);
+			path = "Repp Fitness iOS";
+			sourceTree = "<group>";
+		};
+		813170BE1CCBE1830078C901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813170BF1CCBE1830078C901 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813170D31CCBE1830078C901 /* Repp Fitness iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				813170D61CCBE1830078C901 /* Repp_Fitness_iOSTests.swift */,
+				813170D41CCBE1830078C901 /* Supporting Files */,
+			);
+			path = "Repp Fitness iOSTests";
+			sourceTree = "<group>";
+		};
+		813170D41CCBE1830078C901 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813170D51CCBE1830078C901 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		813170BA1CCBE1830078C901 /* Repp Fitness iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813170DA1CCBE1830078C901 /* Build configuration list for PBXNativeTarget "Repp Fitness iOS" */;
+			buildPhases = (
+				813170B71CCBE1830078C901 /* Sources */,
+				813170B81CCBE1830078C901 /* Frameworks */,
+				813170B91CCBE1830078C901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Repp Fitness iOS";
+			productName = "Repp Fitness iOS";
+			productReference = 813170BB1CCBE1830078C901 /* Repp Fitness iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813170CF1CCBE1830078C901 /* Repp Fitness iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813170DD1CCBE1830078C901 /* Build configuration list for PBXNativeTarget "Repp Fitness iOSTests" */;
+			buildPhases = (
+				813170CC1CCBE1830078C901 /* Sources */,
+				813170CD1CCBE1830078C901 /* Frameworks */,
+				813170CE1CCBE1830078C901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813170D21CCBE1830078C901 /* PBXTargetDependency */,
+			);
+			name = "Repp Fitness iOSTests";
+			productName = "Repp Fitness iOSTests";
+			productReference = 813170D01CCBE1830078C901 /* Repp Fitness iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813170B31CCBE1830078C901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Ormond";
+				TargetAttributes = {
+					813170BA1CCBE1830078C901 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					813170CF1CCBE1830078C901 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 813170BA1CCBE1830078C901;
+					};
+				};
+			};
+			buildConfigurationList = 813170B61CCBE1830078C901 /* Build configuration list for PBXProject "Repp Fitness iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813170B21CCBE1830078C901;
+			productRefGroup = 813170BC1CCBE1830078C901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				813170BA1CCBE1830078C901 /* Repp Fitness iOS */,
+				813170CF1CCBE1830078C901 /* Repp Fitness iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813170B91CCBE1830078C901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813170C61CCBE1830078C901 /* Main.storyboard in Resources */,
+				813170CB1CCBE1830078C901 /* LaunchScreen.xib in Resources */,
+				813170C81CCBE1830078C901 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813170CE1CCBE1830078C901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813170B71CCBE1830078C901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813170C31CCBE1830078C901 /* ViewController.swift in Sources */,
+				813170C11CCBE1830078C901 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813170CC1CCBE1830078C901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813170D71CCBE1830078C901 /* Repp_Fitness_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813170D21CCBE1830078C901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813170BA1CCBE1830078C901 /* Repp Fitness iOS */;
+			targetProxy = 813170D11CCBE1830078C901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		813170C41CCBE1830078C901 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813170C51CCBE1830078C901 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		813170C91CCBE1830078C901 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813170CA1CCBE1830078C901 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813170D81CCBE1830078C901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		813170D91CCBE1830078C901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813170DB1CCBE1830078C901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Repp Fitness iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		813170DC1CCBE1830078C901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Repp Fitness iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		813170DE1CCBE1830078C901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Repp Fitness iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repp Fitness iOS.app/Repp Fitness iOS";
+			};
+			name = Debug;
+		};
+		813170DF1CCBE1830078C901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Repp Fitness iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repp Fitness iOS.app/Repp Fitness iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813170B61CCBE1830078C901 /* Build configuration list for PBXProject "Repp Fitness iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813170D81CCBE1830078C901 /* Debug */,
+				813170D91CCBE1830078C901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813170DA1CCBE1830078C901 /* Build configuration list for PBXNativeTarget "Repp Fitness iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813170DB1CCBE1830078C901 /* Debug */,
+				813170DC1CCBE1830078C901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813170DD1CCBE1830078C901 /* Build configuration list for PBXNativeTarget "Repp Fitness iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813170DE1CCBE1830078C901 /* Debug */,
+				813170DF1CCBE1830078C901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813170B31CCBE1830078C901 /* Project object */;
+}
