@@ -156,6 +156,8 @@
 		813170B31CCBE1830078C901 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "James Ormond";
 				TargetAttributes = {
@@ -409,6 +411,7 @@
 				813170DC1CCBE1830078C901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		813170DD1CCBE1830078C901 /* Build configuration list for PBXNativeTarget "Repp Fitness iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				813170DF1CCBE1830078C901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
