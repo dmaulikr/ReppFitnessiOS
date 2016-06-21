@@ -163,6 +163,7 @@
 				TargetAttributes = {
 					813170BA1CCBE1830078C901 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = M5HAWD8HRE;
 					};
 					813170CF1CCBE1830078C901 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -342,7 +343,8 @@
 		813170DB1CCBE1830078C901 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Repp Fitness iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
@@ -353,7 +355,8 @@
 		813170DC1CCBE1830078C901 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Repp Fitness iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
